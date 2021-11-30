@@ -1,5 +1,5 @@
 
-# Project Objectives
+# Calculator Project 
 
 Caluclator application bult using vanilla JS, and HTML, CSS, Feel free to update the project as needed to add more features.
 ## Built with
@@ -19,6 +19,11 @@ Caluclator application bult using vanilla JS, and HTML, CSS, Feel free to update
 👤 **Abhinav Arora**
 
 - Github: [@abhinavarora14799](https://github.com/abhinavarora14799)
+
+## Pull Request review Guidelines
+
+* In order to add additional features, or work on existing issues please clone the repositry locally, create a seperate branch to the main branch, push the changes to the new branch, and create a pull request and request me (abhinavarora14799) for a review, after review I'll run the code locally, and if working with the feature, I will merge the branch to the master branch. ` Please! feel free to reach out to me regarding any development issues.`
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
