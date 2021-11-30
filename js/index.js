@@ -47,18 +47,18 @@ function load() {
                 case '-':
                 case 'x':
                 case '÷':
-                    // Last char of string
+                   
                     var lastChar = input[input.length - 1];
 
-                    // Only add operator if input is not empty and there is no operator at the last
+                    
                     if(input != '' && operators.indexOf(lastChar) == -1)
                         inputScreen.innerHTML += btnValue;
 
-                    // Allows minus if the string is empty. The first number could be under zero
+                    
                     else if(input == '' && btnValue == '-')
                         inputScreen.innerHTML += btnValue;
 
-                    // Allows to represent the last operation
+                  
                     if(operators.indexOf(lastChar) > -1 && input.length > 1) {
                         inputScreen.innerHTML = input.replace(/.$/, btnValue);
                     }
