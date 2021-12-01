@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Calculator</title>
+    <style>
+      
+        body{        
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+        .container{
+            width: 80%;
+            margin: 0 auto; 
+        }
+        .fixed-header, .fixed-footer{
+            width: 100%;
+            position: fixed;        
+            background: #333;
+            padding: 10px 0;
+            color: #fff;
+        }
+        .fixed-header{
+            top: 0;
+        }
+        .fixed-footer{
+            bottom: 0;
+        }    
+        /* Some more styles to beutify this example */
+        nav a{
+            color: #fff;
+            text-decoration: none;
+            padding: 7px 25px;
+            display: inline-block;
+        }
+        .container p{
+            line-height: 200px; /* Create scrollbar to test positioning */
+        }
+    </style>
+    </head>
+    <body>
+        <div class="fixed-header">
+            <div class="container">
+                <nav>
+                    <a  href="#" >  Hello! Welcome to the Calculator Web-Application</a>
+                </nav>
+            </div>
+        </div>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body onload="load()">
-    <h1> Hello ! Welcome to the Calculator Web-Application by Abhinav Arora. </h1>
+
     <div id="calculator">
         <div class="top">
             <span id="clear">C</span>
@@ -31,6 +74,9 @@
             <span class="eval">=</span>
             <span class="operator">x</span>
         </div>
+    </div>
+    <div class="fixed-footer">
+        <div class="container">By Abhinav Arora</div>        
     </div>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
